@@ -1,0 +1,15 @@
+.widgets {
+  top: 73px;
+  position: sticky;
+  flex: 0.2;
+  background-color: white;
+  border-radius: 10px;
+  border: 1px solid lightgray;
+  height: fit-content;
+  padding-bottom: 10px;
+}
+@media (max-width: 800px) {
+  .widgets {
+    display: none;
+  }
+}

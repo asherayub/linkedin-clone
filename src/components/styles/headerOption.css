@@ -1,0 +1,28 @@
+.headerOption {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-right: 20px;
+  color: gray;
+  cursor: pointer;
+  transition: 100ms ease-in;
+}
+.headerOption__title {
+  font-size: 12px;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+@media (max-width: 800px) {
+  .headerOption__title {
+    display: none;
+  }
+}
+.headerOption:hover {
+  color: black;
+}
+.headerOption__me {
+  object-fit: contain;
+  height: 24px;
+  width: 24px;
+  border-radius: 50%;
+}
